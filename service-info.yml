@@ -1,0 +1,15 @@
+serviceName: service-catalog
+description: Sample service
+domainName: ARCHITECTURE
+productName: SERVICES
+bitbucketUrl: https://github.com/service-catalog-ui
+visibility: public
+dependencies:
+  platformServices:
+  - ServiceRegistry
+  - ConfigServer
+  - Redis
+  consumedServices:
+  - microserviceA
+  - microserviceB
+  - microserviceC
